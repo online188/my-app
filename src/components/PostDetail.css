@@ -1,0 +1,157 @@
+body {
+  background-color: black;
+  color: white;
+}
+
+.container, .content, .sidebar, .header-banner, .footer-banner, .main-body, .main-header, .ftco-section, .post-meta, .post-cats, .item-list, .body-banner, .page-content, .box, .aligncenter, .box-inner-block, .shortc-button, .shortc-button.blue, .shortc-button.green {
+  margin-bottom: 20px;
+}
+
+.content img, .sidebar img, .header-banner img, .footer-banner img {
+  width: 100%;
+  height: auto;
+}
+
+.main-body {
+  background-color: white;
+}
+
+.main-header {
+  background-color: white !important;
+}
+
+.ftco-section {
+  padding: 0;
+}
+
+.post-meta {
+  color: gray;
+}
+
+.post-cats {
+  margin-left: 10px;
+}
+
+.item-list {
+  border-bottom: 1px solid #D8D8D8;
+  padding: 20px 20px 25px;
+  clear: both;
+}
+
+.body-banner {
+  margin: auto;
+  max-width: 80%;
+}
+
+.page-content {
+  border: 1px solid #D8D8D8 !important;
+  padding: 20px;
+  margin: 20px;
+}
+
+.box.info {
+  background: #d6f6ff;
+  border-color: #BFE3EC;
+}
+
+.box {
+  padding: 20px;
+  background-color: #F6F6F6;
+  margin-bottom: 20px;
+  word-wrap: break-word;
+}
+
+.aligncenter {
+  clear: both;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.box-inner-block {
+  color: black;
+  padding-left: 70px;
+  min-height: 50px;
+  font-size: 15px;
+  line-height: 30px;
+}
+
+.shortc-button {
+  padding: 20px;
+  color: white;
+  margin: 4px;
+  border: none;
+  cursor: pointer;
+  padding: 0 10px;
+  display: inline-block;
+  margin: 10px 0 0;
+  font-weight: 700;
+  outline: none;
+  position: relative;
+  background: #bdc3c7;
+  color: #fff !important;
+  text-decoration: none;
+  font-size: 15px;
+  height: 40px;
+  line-height: 40px;
+  opacity: .8;
+  overflow: hidden;
+  border-radius: 3px;
+}
+
+.shortc-button.blue {
+  background-color: #2cb4da;
+}
+
+.shortc-button.green {
+  background-color: green;
+}
+
+.shortc-button:hover {
+  opacity: 1;
+}
+
+.images img {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.pagination button {
+  margin: 5px;
+  padding: 10px 15px;
+  border: none;
+  background-color: #2cb4da;
+  color: white;
+  cursor: pointer;
+}
+
+.pagination button:hover {
+  background-color: #1d9bb7;
+}
+
+.pagination .active {
+  background-color: #1d9bb7;
+}
+
+.view-more {
+  text-align: center;
+}
+
+.view-more .yarpp-thumbnail {
+  display: block;
+  margin: auto;
+  color: #333;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.view-more .yarpp-thumbnail img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.view-more .yarpp-thumbnail-title {
+  display: block;
+  text-align: center;
+  padding: 10px 0;
+}

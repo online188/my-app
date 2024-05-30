@@ -1,0 +1,45 @@
+.footer {
+    padding: 20px 0;
+    color: #fff;
+  }
+  
+  .footer h5 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .footer-tags {
+    font-size: 14px;
+  }
+  
+  .footer-tags a {
+    color: #2cb4da;
+    text-decoration: none;
+    margin-right: 10px;
+  }
+  
+  .footer-tags a:hover {
+    text-decoration: underline;
+  }
+  
+  .banner-ad {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .banner-ad img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .banner-ad-large {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .banner-ad-large img {
+    max-width: 100%;
+    height: auto;
+  }
+  

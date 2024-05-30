@@ -1,0 +1,55 @@
+.navbar {
+  background-color: #333;
+  border-bottom: 4px solid #e74c3c; /* Add this line to set the border-bottom color */
+  /* height: 40px; */
+}
+
+.navbar-brand {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav-link {
+  color: #fff !important;
+  padding: 10px 15px;
+}
+
+.nav-link:hover {
+  background-color: #555;
+  color: #fff !important;
+}
+
+.dropdown-menu {
+  background-color: #444;
+}
+
+.dropdown-item {
+  color: #fff;
+}
+
+.dropdown-item:hover {
+  background-color: #555;
+  color: #fff;
+}
+
+.searchform {
+  display: flex;
+  align-items: center;
+}
+
+.searchform .form-control {
+  border-radius: 0;
+}
+
+.searchform .search {
+  background-color: #2cb4da;
+  color: #fff;
+}
+
+.searchform .search:hover {
+  background-color: #1d9bb7;
+}
+
+.active {
+  background-color: #e74c3c !important;
+}
