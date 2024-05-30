@@ -10,7 +10,7 @@ function Top3Days() {
   useEffect(() => {
     const fetchPosts = async () => {
       try {
-        const res = await axios.get('http://zzz.loseyourip.com:8000/api/posts/top?day=60');
+        const res = await axios.get('https://backend-k9e4.onrender.com/api/posts/top?day=60');
         setPosts(res.data);
       } catch (err) {
         console.error(err);

@@ -11,7 +11,7 @@ function Content() {
   useEffect(() => {
     const fetchPosts = async () => {
       try {
-        const res = await axios.get(`http://zzz.loseyourip.com:8000/api/posts?page=${currentPage}&limit=5`);
+        const res = await axios.get(`https://backend-k9e4.onrender.com/api/posts?page=${currentPage}&limit=5`);
         setPosts(res.data.posts);
         setTotalPages(res.data.totalPages);
       } catch (err) {

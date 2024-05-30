@@ -8,7 +8,7 @@ function Search() {
   const handleSearch = async (e) => {
     e.preventDefault();
     try {
-      const res = await axios.get(`http://zzz.loseyourip.com:8000/api/posts/search?q=${query}`);
+      const res = await axios.get(`https://backend-k9e4.onrender.com/api/posts/search?q=${query}`);
       setResults(res.data);
     } catch (err) {
       console.error(err);

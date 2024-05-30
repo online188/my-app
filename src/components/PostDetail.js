@@ -15,7 +15,7 @@ function PostDetail() {
   useEffect(() => {
     const fetchPost = async () => {
       try {
-        const res = await axios.get(`http://zzz.loseyourip.com:8000/api/posts/${id}?page=${currentPage}&limit=5`);
+        const res = await axios.get(`https://backend-k9e4.onrender.com/api/posts/${id}?page=${currentPage}&limit=5`);
         setPost(res.data.post);
         setImages(res.data.images);
         setTotalPages(res.data.totalPages);
@@ -31,7 +31,7 @@ function PostDetail() {
   useEffect(() => {
     const fetchRandomPosts = async () => {
       try {
-        const res = await axios.get('http://zzz.loseyourip.com:8000/api/posts/random');
+        const res = await axios.get('https://backend-k9e4.onrender.com/api/posts/random');
         setRandomPosts(res.data);
       } catch (err) {
         console.error(err);

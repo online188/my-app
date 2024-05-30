@@ -8,7 +8,7 @@ function Tag({ tag }) {
   useEffect(() => {
     const fetchPosts = async () => {
       try {
-        const res = await axios.get(`http://zzz.loseyourip.com:8000/api/posts?tag=${tag}`);
+        const res = await axios.get(`https://backend-k9e4.onrender.com/api/posts?tag=${tag}`);
         setPosts(res.data.posts);
       } catch (err) {
         console.error(err);
